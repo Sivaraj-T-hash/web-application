@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e3f2fd;
+}
+.menubar {
+    width: 100%;
+    background-color: #0d47a1;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.menubar button {
+    margin-right: 20px;
+    padding: 10px 15px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sidebar {
+    width: 250px;
+    background-color: #1565c0;
+    color: white;
+    padding: 20px;
+    margin-top:30px;
+    position: fixed;
+    height: 100%;
+    top: 50px;
+    left: -250px;
+    transition: left 0.3s;
+}
+.sidebar.active {
+    left: 0;
+}
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 10px;
+    text-align: left;
+}
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.sidebar ul li:hover {
+    background-color: #ff9800;
+    cursor: pointer;
+}
+.main-content {
+    padding: 20px;
+    width: 100%;
+    margin-top: 50px;
+}
+.content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.menubar{
+    position: fixed;
+}
+.b1{
+    text-decoration: none;
+    color: #fefdff;
+}

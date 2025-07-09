@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestEng - Dashboard</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="edit.css">
+    
+    <script>
+        function toggleSidebar() {
+            document.querySelector(".sidebar").classList.toggle("active");
+        }
+    </script>
+</head>
+<body>
+    <div class="menubar">
+        <button class="menu-button" onclick="toggleSidebar()">☰</button>
+        <h1>DEPARTMENT OF ENGLISH</h1>
+        <button><a class="b1" href="contactus.html">HELP!</a></button>
+    </div>
+    <div class="sidebar">
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="writetest.html">Write Tests</a></li>
+            <li><a href="univ.html">Write University Exam</a></li>
+            <li><a href="#profile">Edit your Profile</a></li>
+            <li><a href="download.html">Download Previous Results</a></li>
+            <li><a href="#event">Events</a></li>
+            <li><a href="#staff">Faculty</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="signin.html">Logout</a></li>
+        </ul>
+    </div>
+    
+    <div class="main-content">
+        <div class="content">
+            <div classs="main-body">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <form id="msform">
+                            <fieldset>
+                                <h2 class="fs-title">Personal Details</h2>
+                                <input type="text" name="fname" placeholder="First Name"/>
+                                <input type="text" name="lname" placeholder="Last Name"/>
+                                <input type="text" name="phone" placeholder="Phone"/>
+                                <input type="email" name="email" placeholder="E-Mail"/>
+                                <input type="button" name="next" class="next action-button" value="Submit"/>
+                                
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+</body>
+</html>

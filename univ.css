@@ -1,0 +1,109 @@
+.name{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.code-bar{
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    border: 3px solid #176BB7;
+   
+    display: inline-block;
+    border-color: #176BB7;
+    border-style: solid;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 15px;
+   
+}
+.Go-button{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    background-color:rgb(255, 0, 0);
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    margin-left: 0px;
+
+}
+.get-code{
+    margin-top: 30px;
+    margin-right: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    
+}
+.Go-button:hover{
+    background-color: rgb(247, 140, 0);
+}
+h4 {
+    animation-duration: 3s;
+    animation-name: slide-in;
+  }
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+.code-bar{
+    animation-duration: 3s;
+    animation-name: slide-in;
+  }
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  .Go-button{
+    animation-duration: 3s;
+    animation-name: slide-in;
+  }
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  h3{
+    animation-duration: 3s;
+    animation-name: slide-in;
+  }
+  @keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  .b1{
+    text-decoration: none;
+    color: #fefdff;
+}
